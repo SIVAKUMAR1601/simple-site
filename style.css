@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.landing-section {
+    width: 100%;
+    height: 700px;
+    background-image: url(coffee_img.jpeg);
+    background-size: cover;
+    color: #fff;
+}
+
+.inside-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
+
+.landing-content-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 230px;
+}
+
+.landing-content-wrapper .title {
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+
+.landing-content-wrapper .content {
+    font-weight: 100;
+}
+
+.landing-content-wrapper .btn {
+    padding: 15px 50px;
+    border: 0;
+    background: #04d1c1;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.purchase-icon {
+    width: 17px;
+}

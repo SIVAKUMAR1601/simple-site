@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+.logo{
+    color: #fff;
+}
+
 .menu {
     display: flex;
     width: 50%;
@@ -54,17 +58,18 @@
 }
 
 .landing-content-wrapper .btn {
-    padding: 15px 50px;
+    padding: 15px 20px;
     border: 0;
-    background: #04d1c1;
+    background: rgb(3, 165, 180);
     color: #fff;
     text-transform: uppercase;
     font-size: 0.9em;
 }
 
 .purchase-icon {
-    width: 17px;
+    width:20px;
 }
+
 
 .fuatures-section{
     width: 100%;
@@ -96,16 +101,17 @@ h2{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
     
 }
 
 .grid{
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    border: solid rgb(205, 204, 204) 1px;
+    justify-content: space-evenly;
+    border: solid rgb(205, 204, 204) 1.5px;
     text-align: center;
     padding: 10px;
     color: #b7b6b6;

@@ -244,11 +244,11 @@ h3{
 
 .m{
     width: 23%;
-    height: 100px;
+    height: 110px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     color: gray;
 }
 
@@ -263,8 +263,8 @@ span{
 .feed-back{
     width: 100%;
     height: 250px;
-    background-color: rgb(4, 192, 210);
-    justify-content: space-around;
+    background-color: rgb(17, 198, 215);
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
 }
@@ -274,13 +274,20 @@ span{
     height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
     text-align: center;
     color: white;
 }
 
-h1{
-    font-size: 40px;
+.final-h1{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+.final-span{
+    color: white;
+    font-size: 15px;
 }
 

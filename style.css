@@ -33,7 +33,7 @@
 .menu-wrapper {
     display: flex;
     justify-content: space-between;
-    height: 75px;
+    height: 85px;
     align-items: center;
 }
 
@@ -58,12 +58,12 @@
 }
 
 .landing-content-wrapper .btn {
-    padding: 15px 20px;
+    padding: 10px 12px;
     border: 0;
-    background: rgb(3, 165, 180);
+    background: rgb(1, 212, 231);
     color: #fff;
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 12px;
 }
 
 .purchase-icon {
